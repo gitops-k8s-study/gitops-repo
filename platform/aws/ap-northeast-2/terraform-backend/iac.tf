@@ -1,3 +1,3 @@
 module "terraform-backend" {
-  source = "git@github.com:<Github Profile명>/platform-repository.git//aws/ap-northeast-2/terraform-backend?ref=main"
+  source = "git@github.com/gitops-k8s-study/platform-repo.git//aws/ap-northeast-2/terraform-backend?ref=main"
 }

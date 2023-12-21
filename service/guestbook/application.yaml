@@ -10,10 +10,10 @@ spec:
   project: default
   source:
     path: guestbook
-    repoURL: git@github.com:<Github Profile명>/service-repository.git
+    repoURL: git@github.com/gitops-k8s-study/service-repo.git
     targetRevision: HEAD
   syncPolicy:
     automated:
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true

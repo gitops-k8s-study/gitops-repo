@@ -9,11 +9,11 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: bubblepool
-    repoURL: git@github.com:<Github Profile명>/service-repository.git
+    path: bubblepool #해당 repo에서 디렉토리이름
+    repoURL: git@github.com/gitops-k8s-study/service-repo.git
     targetRevision: HEAD
   syncPolicy:
-    automated:
-      selfHeal: true
+    automated: #싱크는 자동적으로
+      selfHeal: true # 셀프힐도 허용
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true #네임스페이스가 없으면 자동으로 생성
