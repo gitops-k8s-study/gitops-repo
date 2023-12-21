@@ -1,2 +1,2 @@
 resources:
-  - https://github.com/<Github Profile명>/management-repository//argo-cd?ref=main
+  - https://github.com/gitops-k8s-study/management-repo//argo-cd?ref=main
